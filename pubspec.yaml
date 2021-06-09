@@ -1,0 +1,80 @@
+name: lunad
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  image_picker: ^0.6.7+22
+  uuid: ^2.2.2
+  geolocator: ^6.2.1
+  geocoding: ^1.0.5
+  focus_detector: ^1.1.0+1
+  google_maps_flutter: ^1.0.6
+  font_awesome_flutter: ^9.0.0
+  firebase_core: ^0.7.0
+  firebase_analytics: ^7.0.1
+  firebase_auth: ^0.20.1
+  firebase_storage: ^7.0.0
+  cloud_firestore: ^0.16.0
+  flutter_bloc: ^6.1.1
+  progress_indicators: ^0.1.5
+  equatable: ^1.2.6
+  modal_bottom_sheet: ^1.0.0+1
+  flutter_google_places: ^0.2.8
+  http: ^0.12.2
+  mapbox_api: ^0.2.3
+  rflutter_alert: ^1.1.0
+  flutter_datetime_picker: ^1.4.0
+  intl: ^0.16.1
+  smart_select: ^4.3.2
+  assets_audio_player: ^2.0.15
+  timeline_tile: ^1.0.0
+  firebase_messaging:
+  flutter_local_notifications: ^4.0.1+2
+  rxdart: ^0.25.0
+  flutter_native_timezone: ^1.0.4
+  flutter_markdown: ^0.5.2
+
+dev_dependencies:
+  flutter_native_splash: ^0.3.2
+  flutter_launcher_icons: ^0.7.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+    - assets/images/
+    - assets/images/markers/
+    - assets/mds/
+  fonts:
+    - family: Bree Serif
+      fonts:
+        - asset: assets/fonts/BreeSerif-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+flutter_icons:
+  image_path: 'assets/images/icon.png'
+  android: true
+  ios: true
+
+flutter_native_splash:
+  color: '#d50000'
+  image: assets/splash.png
+  fullscreen: true
+  android: true

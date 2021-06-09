@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "690131754125",
+    "project_id": "lunad-67715",
+    "storage_bucket": "lunad-67715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690131754125:android:71bc3004b037a566c096c4",
+        "android_client_info": {
+          "package_name": "com.budbrainstech.lunad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690131754125-4svbvtegg048a1bh3nk9gjv2ck2ls4f5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.budbrainstech.lunad",
+            "certificate_hash": "a77b834d0b8910d5d29a8e41b9b04d2ef1186880"
+          }
+        },
+        {
+          "client_id": "690131754125-5j5e5tfhettq24rrh3lqgnt5nad1mrd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp4c1tOcNNggNU-yfvwQU3UskKn42TQVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690131754125-5j5e5tfhettq24rrh3lqgnt5nad1mrd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
